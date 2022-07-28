@@ -1,0 +1,8 @@
+[package]
+name = "nix-cargo-two-unpinned-dependencies"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = { git = "https://github.com/rust-lang/libc", rev = "0.2.126" }
+subproject = { path = "subproject" }

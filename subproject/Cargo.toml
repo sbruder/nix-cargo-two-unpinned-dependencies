@@ -1,0 +1,7 @@
+[package]
+name = "subproject"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = { git = "https://github.com/rust-lang/libc", rev = "f143f2b9ace1c9b99dd5c104470e94f5990ed7d2" }
